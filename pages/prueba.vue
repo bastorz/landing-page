@@ -179,7 +179,7 @@
             </div>
         </section>
     
-          <div class="flex justify-center p-12 " v-editable="blok">
+          <div class="flex justify-center p-12">
     
         <!-- <form
           :name="blok.name"
@@ -203,34 +203,35 @@
       </div>
     
      <div class="w-full flex items-center justify-center bg-gray-600 py-60">
-          <form name="formulario" method="post" netlify action="/prueba" class="flex flex-col items-center justify-center p-10 bg-blue-600 w-[300px]">
-                <ul class="flex flex-col space-y-8 my-4">
-                    <li class="flex flex-col items-center justify-center">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li  class="flex flex-col items-center justify-center">
-                    <label for="mail">Correo electrónico:</label>
-                    <input type="email" id="mail" name="user_mail" />
-                    </li>
-                    <li  class="flex flex-col items-center justify-center">
-                    <label for="msg">Mensaje:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                </ul>
-                <button
-                    type="submit"
-                    class="w-full rounded-[8px] bg-primary px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out bg-[#00b3b0] hover:bg-[#009f9c] hover:shadow-lg focus:bg-[#009f9c] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#009f9c] active:shadow-lg"
-                >
-                    Send
-                </button>
-            </form>
+        <form 
+  name="contactus" 
+  action="/prueba" 
+  method="post" 
+  netlify
+  netlify-honeypot="bot-field"
+>
+  <input type="hidden" name="form-name" value="contactus" />
+  <div>  
+    <label for="name">Name:</label> 
+    <input type="text" name="name" required/>
+  </div>
+  <div>
+    <input type="email" name="email" required/>
+    <label for="email">Email:</label>
+  </div>
+  <div>
+    <textarea name="message" required></textarea>
+    <label for="message">Message:</label>
+  </div>
+  <button type="submit" value="Send message">Send</button>
+</form>
      </div>
     
        <!-- <StoryblokComponent v-if="story" :blok="story.content" /> -->
 
-</client-only>
+    </client-only>
 </template>
+
     <script setup>
     import { defineComponent, h } from 'vue'
     import {
