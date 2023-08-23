@@ -1,12 +1,12 @@
 <template>
-  <div class="flex justify-center p-12" v-editable="blok">
+  <div class="flex justify-center p-12 " v-editable="blok">
 
     <form
       :name="blok.name"
       method="POST"
-      data-netlify="true"
+      netlify
       :action="`${blok.navigationSuccess.cached_url}`"
-      class="flex flex-col w-[400px]"
+      class="flex flex-col w-[400px]  pt-10"
     >
       <StoryblokComponent
         v-for="form in blok.forms"
