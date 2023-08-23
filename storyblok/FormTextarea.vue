@@ -1,0 +1,15 @@
+<template>
+  <div class="form-group mb-6">
+    <textarea
+      :name="blok.name"
+      class="form-control m-0 block w-full rounded-[8px] border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-1.5 text-base font-normal text-primary transition ease-in-out focus:border-primary focus:bg-white focus:text-primary focus:outline-none"
+      :id="blok.name"
+      :placeholder="`${blok.placeholder} ${blok.required ? '' : '(optional)'}`"
+      :required="blok.required"
+      :rows="blok.rows"
+    />
+  </div>
+</template>
+<script setup>
+defineProps({ blok: Object });
+</script>
