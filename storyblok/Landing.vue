@@ -1,5 +1,5 @@
   <template>
-    <section class="flex flex-col">
+    <section class="">
         <div class="bg-gray-900">
           <main>
             <!-- Hero section -->
