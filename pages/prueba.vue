@@ -1,0 +1,1 @@
+<template><div>Esta es la pagina de prueba, no test.</div></template>
