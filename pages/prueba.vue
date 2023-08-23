@@ -210,6 +210,7 @@
   netlify
   netlify-honeypot="bot-field"
 >
+<input type="hidden" name="contactus" value="contactus" />
   <input type="hidden" name="form-name" value="contactus" />
   <div>  
     <label for="name">Name:</label> 
