@@ -1,5 +1,4 @@
 <template>
-<client-only>
 
         <section class="">
             <div class="bg-gray-900">
@@ -230,7 +229,6 @@
     
        <!-- <StoryblokComponent v-if="story" :blok="story.content" /> -->
 
-    </client-only>
 </template>
 
     <script setup>
