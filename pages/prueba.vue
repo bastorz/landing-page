@@ -200,7 +200,7 @@
     </form> -->
   </div>
 
-  <form action="/prueba" class="flex flex-col items-center justify-center p-10 bg-blue-600">
+  <form name="formulario" method="POST" netlify action="/prueba" class="flex flex-col items-center justify-center p-10 bg-blue-600">
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" value="John"><br>
         <label for="lname">Last name:</label><br>
