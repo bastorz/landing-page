@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-black"> <StoryblokComponent v-if="story" :blok="story.content" /></div>
+  <div> <StoryblokComponent v-if="story" :blok="story.content" /></div>
 </template>
 
 <script setup>
