@@ -201,7 +201,7 @@
   </div>
 
  <div class="w-full flex items-center justify-center bg-gray-600 py-60">
-      <form name="formulario" method="POST" netlify action="/prueba" class="flex flex-col items-center justify-center p-10 bg-blue-600 w-[300px]">
+      <form name="formulario" method="post" netlify action="/prueba" class="flex flex-col items-center justify-center p-10 bg-blue-600 w-[300px]">
             <ul class="flex flex-col space-y-8 my-4">
                 <li class="flex flex-col items-center justify-center">
                 <label for="name">Nombre:</label>
