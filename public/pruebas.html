@@ -1,5 +1,16 @@
-    <form name="contactus" netlify  hidden>
-        <input type="text" name="name" />
-        <input type="radio" name="panelist" />
-        <textarea name="question"></textarea>
+    <form name="contactus" netlify hidden>
+        <input type="hidden" name="form-name" value="contactus" />
+        <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">  
+            <label for="name">Name:</label> 
+            <input type="text" name="name" required/>
+        </div>
+        <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">
+            <label for="email">Email:</label>
+            <input type="email" name="email" required/>
+        </div>
+        <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">
+            <label for="message">Message:</label>
+            <textarea name="message" required></textarea>
+            <button type="submit" value="Send message" class="bg-gradient-to-r from-blue-900 to-blue-500 py-4 px-10 rounded-lg">Send</button>
+        </div>
     </form>
