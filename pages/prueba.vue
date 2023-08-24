@@ -1,185 +1,4 @@
 <template>
-
-        <section class="">
-            <div class="bg-gray-900">
-              <main>
-                <!-- Hero section -->
-                <div class="relative isolate overflow-hidden">
-                  <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-                    <defs>
-                      <pattern id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-                        <path d="M.5 200V.5H200" fill="none" />
-                      </pattern>
-                    </defs>
-                    <svg x="50%" y="-1" class="overflow-visible fill-gray-800/20">
-                      <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
-                    </svg>
-                    <rect width="100%" height="100%" stroke-width="0" fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
-                  </svg>
-                  <div class="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]" aria-hidden="true">
-                    <div class="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
-                  </div>
-                  <div class="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-40 lg:flex lg:px-8 lg:pt-40">
-                    <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
-                      <img class="h-11" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=500" alt="Your Company" />
-                      <div class="mt-24 sm:mt-32 lg:mt-16">
-                        <a href="#" class="inline-flex space-x-6">
-                          <span class="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">Latest updates</span>
-                          <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
-                            <span>Just shipped v1.0</span>
-                            <ChevronRightIcon class="h-5 w-5 text-gray-500" aria-hidden="true" />
-                          </span>
-                        </a>
-                      </div>
-                      <h1 class="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">Deploy to the cloud with confidence</h1>
-                      <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-                      <div class="mt-10 flex items-center gap-x-6">
-                        <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-                        <a href="#" class="text-sm font-semibold leading-6 text-white">Live demo <span aria-hidden="true">→</span></a>
-                      </div>
-                    </div>
-                    <div class="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
-                      <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                        <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="App screenshot" width="2432" height="1442" class="w-[76rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          
-          
-          
-                <!-- Logo cloud -->
-                <div class="mx-auto mt-8 max-w-7xl px-6 sm:mt-16 lg:px-8">
-                  <h2 class="text-center text-lg font-semibold leading-8 text-white">The world’s most innovative companies use our app</h2>
-                  <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg" alt="Transistor" width="158" height="48" />
-                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg" alt="Reform" width="158" height="48" />
-                    <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg" alt="Tuple" width="158" height="48" />
-                    <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg" alt="SavvyCal" width="158" height="48" />
-                    <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg" alt="Statamic" width="158" height="48" />
-                  </div>
-                </div>
-          
-                <!-- Feature section -->
-                <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
-                  <div class="mx-auto max-w-2xl text-center">
-                    <h2 class="text-base font-semibold leading-7 text-indigo-400">Deploy faster</h2>
-                    <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Everything you need to deploy your app</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-300">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
-                  </div>
-                  <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                    <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                      <div v-for="feature in primaryFeatures" :key="feature.name" class="flex flex-col">
-                        <dt class="text-base font-semibold leading-7 text-white">
-                          <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-500">
-                            <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
-                          </div>
-                          {{ feature.name }}
-                        </dt>
-                        <dd class="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-300">
-                          <p class="flex-auto">{{ feature.description }}</p>
-                          <p class="mt-6">
-                            <a :href="feature.href" class="text-sm font-semibold leading-6 text-indigo-400">Learn more <span aria-hidden="true">→</span></a>
-                          </p>
-                        </dd>
-                      </div>
-                    </dl>
-                  </div>
-                </div>
-          
-                <!-- Feature section -->
-                <div class="mt-32 sm:mt-56">
-                  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div class="mx-auto max-w-2xl sm:text-center">
-                      <h2 class="text-base font-semibold leading-7 text-indigo-400">Everything you need</h2>
-                      <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">No server? No problem.</p>
-                      <p class="mt-6 text-lg leading-8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis.</p>
-                    </div>
-                  </div>
-                  <div class="relative overflow-hidden pt-16">
-                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                      <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="App screenshot" class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-white/10" width="2432" height="1442" />
-                      <div class="relative" aria-hidden="true">
-                        <div class="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-gray-900 pt-[7%]" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
-                    <dl class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
-                      <div v-for="feature in secondaryFeatures" :key="feature.name" class="relative pl-9">
-                        <dt class="inline font-semibold text-white">
-                          <component :is="feature.icon" class="absolute left-1 top-1 h-5 w-5 text-indigo-500" aria-hidden="true" />
-                          {{ feature.name }}
-                        </dt>
-                        {{ ' ' }}
-                        <dd class="inline">{{ feature.description }}</dd>
-                      </div>
-                    </dl>
-                  </div>
-                </div>
-          
-                <!-- Stats -->
-                <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
-                  <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                    <h2 class="text-base font-semibold leading-8 text-indigo-400">Our track record</h2>
-                    <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Trusted by thousands of developers&nbsp;worldwide</p>
-                    <p class="mt-6 text-lg leading-8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
-                  </div>
-                  <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-white sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-                    <div v-for="stat in stats" :key="stat.id" class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
-                      <dt class="text-sm leading-6">{{ stat.name }}</dt>
-                      <dd class="order-first text-3xl font-semibold tracking-tight">{{ stat.value }}</dd>
-                    </div>
-                  </dl>
-                </div>
-          
-                <!-- CTA section -->
-                <div class="relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8">
-                  <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
-                    <defs>
-                      <pattern id="1d4240dd-898f-445f-932d-e2872fd12de3" width="200" height="200" x="50%" y="0" patternUnits="userSpaceOnUse">
-                        <path d="M.5 200V.5H200" fill="none" />
-                      </pattern>
-                    </defs>
-                    <svg x="50%" y="0" class="overflow-visible fill-gray-800/20">
-                      <path d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z" stroke-width="0" />
-                    </svg>
-                    <rect width="100%" height="100%" stroke-width="0" fill="url(#1d4240dd-898f-445f-932d-e2872fd12de3)" />
-                  </svg>
-                  <div class="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl" aria-hidden="true">
-                    <div class="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)" />
-                  </div>
-                  <div class="mx-auto max-w-2xl text-center">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br />Start using our app today.</h2>
-                    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
-                    <div class="mt-10 flex items-center justify-center gap-x-6">
-                      <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
-                      <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
-                    </div>
-                  </div>
-                </div>
-              </main>
-          
-              <!-- Footer -->
-              <footer aria-labelledby="footer-heading" class="relative">
-            <h2 id="footer-heading" class="sr-only">Footer</h2>
-            <div class="mx-auto max-w-7xl px-6 pb-8 pt-4 lg:px-8">
-              <div class="border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-                <div class="flex space-x-6 md:order-2">
-                  <a v-for="item in footerNavigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
-                    <span class="sr-only">{{ item.name }}</span>
-                    <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-                  </a>
-                </div>
-                <p class="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">&copy; 2020 Your Company, Inc. All rights reserved.</p>
-              </div>
-            </div>
-          </footer>
-            </div>
-        </section>
-    
-          <div class="flex justify-center p-12">
-    
         <!-- <form
           :name="blok.name"
           method="POST"
@@ -199,32 +18,29 @@
             Send
           </button>
         </form> -->
-      </div>
-    
-     <div class="w-full flex items-center justify-center bg-gray-600 py-60">
+     <div class="w-full flex items-center justify-center bg-gradient-to-r from-purple-900 to-pink-700  h-screen py-60">
         <form 
-  name="contactus" 
-  action="/prueba" 
-  method="post" 
-  netlify
-  netlify-honeypot="bot-field"
->
-<input type="hidden" name="contactus" value="contactus" />
-  <input type="hidden" name="form-name" value="contactus" />
-  <div>  
-    <label for="name">Name:</label> 
-    <input type="text" name="name" required/>
-  </div>
-  <div>
-    <input type="email" name="email" required/>
-    <label for="email">Email:</label>
-  </div>
-  <div>
-    <textarea name="message" required></textarea>
-    <label for="message">Message:</label>
-  </div>
-  <button type="submit" value="Send message">Send</button>
-</form>
+        name="contactus" 
+        action="/prueba" 
+        method="post" 
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        >
+            <input type="hidden" name="form-name" value="contactus" />
+            <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">  
+                <label for="name">Name:</label> 
+                <input type="text" name="name" required/>
+            </div>
+            <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">
+                <label for="email">Email:</label>
+                <input type="email" name="email" required/>
+            </div>
+            <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">
+                <label for="message">Message:</label>
+                <textarea name="message" required></textarea>
+                <button type="submit" value="Send message" class="bg-gradient-to-r from-blue-900 to-blue-500 py-4 px-10 rounded-lg">Send</button>
+            </div>
+        </form>
      </div>
     
        <!-- <StoryblokComponent v-if="story" :blok="story.content" /> -->
