@@ -24,7 +24,7 @@
         action="/prueba" 
         method="post" 
         data-netlify="true"
-        netlify-honeypot="bot-field"
+        
         >
             <input type="hidden" name="form-name" value="contactus" />
             <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">  
