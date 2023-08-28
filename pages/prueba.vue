@@ -20,9 +20,9 @@
         </form> -->
      <div class="w-full flex items-center justify-center bg-gradient-to-r from-purple-900 to-pink-700  h-screen py-60">
         <form 
-        name="contact" action="/" method="post" data-netlify="true"
+        name="contactForm" action="/" method="post" data-netlify="true"
         >
-            <input type="hidden" name="contact" value="contact" />
+            <input type="hidden" name="contactForm" value="contactForm" />
             <div class="flex items-center justify-center flex-col text-white text-4xl space-y-4 py-4">  
                 <label for="name">Name:</label> 
                 <input type="text" name="name" required/>
