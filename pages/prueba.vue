@@ -18,7 +18,7 @@
             Send
           </button>
         </form> -->
-     <div class="w-full flex items-center justify-center bg-gradient-to-r from-purple-900 to-pink-700  h-screen py-60">
+     <div class="w-full flex items-center justify-center bg-gradient-to-r from-purple-900 to-pink-700 h-screen py-60">
         <form 
         name="contactForm" action="/" method="post" data-netlify="true"
         >
